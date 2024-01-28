@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Department of Computer Science and Engineering
+# Chitkara University
 
-## Getting Started
+# Project Report on Threads Clone (a Social Media App)
 
-First, run the development server:
+**Submitted by:**  
+Agamjot Singh  
+Roll Number: 2110991622  
+Group: G7 (5th Semester)  
+[Batch 2021-25]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+----
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Introduction
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+In the dynamic landscape of social media platforms, our project stands as a testament to innovation and user-centric design. Titled **tiktalk**, this functional threads clone has been meticulously crafted to provide users with a seamless and engaging social experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The primary objective of **tiktalk** is to offer users a comprehensive suite of functionalities, ranging from user registration and onboarding to creating, posting, and sharing threads. The platform goes beyond conventional social media interactions by placing a strong emphasis on user authentication and profile customization. With the integration of technologies such as Next.js with TypeScript, Tailwind CSS, Node.js, MongoDB, and Clerk Authentication, **tiktalk** is positioned to deliver a modern and efficient social media experience.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used 
+- Next.js with TypeScript
+- Tailwind CSS
+- Node.js
+- MongoDB
+- Clerk Authentication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **User Authentication:** Prioritizing user experience, **tiktalk** allows seamless sign-up/sign-in options, including Google, Github, email, or username.
+2. **Onboarding:** Users are encouraged to personalize their profiles by setting up a unique username and bio. The option to add a profile picture enhances the overall user experience.
+3. **Create Posts:** Empowering users to share their thoughts, **tiktalk** provides a user-friendly interface for creating and posting content.
+4. **Reply to Posts:** Fostering communication, users can engage in meaningful discussions by replying to posts.
+5. **Find Friends:** A robust search functionality enables users to discover and connect with friends on the platform.
+6. **Profile Management:** Users have the flexibility to update their profile picture, username, bio, and manage their post history.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Future Considerations: 
+- Communities with private threads
+- Image uploads with threads
