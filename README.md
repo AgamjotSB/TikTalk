@@ -73,6 +73,45 @@ The primary objective of **tiktalk** is to offer users a comprehensive suite of 
 
 👉 **Form Management with React Hook Form**: Efficient management of forms with React Hook Form for a streamlined user input experience.
 
+## Quick Start
+
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+### Cloning the repository
+
+```bash
+git clone https://github.com/AgamjotSB/TikTalk.git
+cd TikTalk
+```
+
+### Installation
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+### Set Up Environment Variables
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+MONGODB_URL=
+CLERK_SECRET_KEY=
+UPLOADTHING_SECRET=
+UPLOADTHING_APP_ID=
+NEXT_CLERK_WEBHOOK_SECRET=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+```
+Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up for the corresponding websites on [MongoDB](https://www.mongodb.com/), [Clerk](https://clerk.com/), and [Uploadthing](https://uploadthing.com/). 
+
+
+### Running the Project
 
 ## Future Considerations: 
 - Communities with private threads
